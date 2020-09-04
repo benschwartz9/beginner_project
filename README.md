@@ -5,17 +5,17 @@ In addition, this is not a tutorial. The project contains several problems so th
 While the project is geared towards Python, most of the sections can be completed in any language.
 
 ### General Resources
-https://www.tutorialspoint.com/python/index.htm
-https://www.w3schools.com/python/
-https://towardsdatascience.com/a-beginners-guide-to-python-for-data-science-60ef022b7b67
+https://www.tutorialspoint.com/python/index.htm  
+https://www.w3schools.com/python/  
+https://towardsdatascience.com/a-beginners-guide-to-python-for-data-science-60ef022b7b67  
 
 ### Section 1 - Python Environment Setup
 #### Section References
-https://www.tutorialspoint.com/python/python_environment.htm
-https://www.python.org/downloads/
-https://www.jetbrains.com/pycharm/
-https://code.visualstudio.com/
-https://www.spyder-ide.org/
+https://www.tutorialspoint.com/python/python_environment.htm  
+https://www.python.org/downloads/  
+https://www.jetbrains.com/pycharm/  
+https://code.visualstudio.com/  
+https://www.spyder-ide.org/  
 
 The first thing you need to be able to do is run Python. There are many different ways to run Python, but if you don't already have a preference, we will run it on your local machine.
 
@@ -30,8 +30,8 @@ The output should be
 
 ### Section 2 - Installing Python Packages
 #### Section References
-https://realpython.com/what-is-pip/
-https://pypi.org/project/requests/
+https://realpython.com/what-is-pip/  
+https://pypi.org/project/requests/  
 
 Rather than writing it all yourself, you can use code other programmers wrote wrapped up in packages. "pip" is a package manager, which allows you to easily download other people's packages and incorporate it in your code. To test your ability to use pip, install the "requests" package using the instructions from the website pypi (https://pypi.org/project/requests/)
 
@@ -39,19 +39,19 @@ Now, you can test that requests is successfully install by running "runrequests.
 > Response returned: 200, OK
 
 Now, you should be able to install any package you might find useful. Some that I think will be useful are
-https://pypi.org/project/numpy/
-https://pypi.org/project/matplotlib/
-https://pypi.org/project/pandas/
-https://pypi.org/project/Pillow/
-https://pypi.org/project/opencv-python/
+https://pypi.org/project/numpy/  
+https://pypi.org/project/matplotlib/  
+https://pypi.org/project/pandas/  
+https://pypi.org/project/Pillow/  
+https://pypi.org/project/opencv-python/  
 
 To finish this section, download at least one of the following packages and use it in your own Python program
 
 
 ### Section 3 - Basic Python
 #### Section References
-https://www.tutorialspoint.com/python/index.htm
-https://www.w3schools.com/python/
+https://www.tutorialspoint.com/python/index.htm  
+https://www.w3schools.com/python/  
 
 There are so many resources to learn the basics of Python that I would highly recommend looking on your own to see what works best for you. I put some links to the resources that I used when learning Python. After you read through and learn the basics, I would recommend completing a simple project to put your skills to the test. Keep in mind, the point here is to learn Python.
 
@@ -74,8 +74,8 @@ There are so many resources to learn the basics of Python that I would highly re
 
 ### Section 4 - API
 #### Section References
-https://www.dataquest.io/blog/python-api-tutorial/
-https://www.pythonforbeginners.com/scraping/scraping-wunderground
+https://www.dataquest.io/blog/python-api-tutorial/  
+https://www.pythonforbeginners.com/scraping/scraping-wunderground  
 
 APIs are most commonly used to send data between services. Because each API is set up differently, you'll have to rely heavily on documentation from the provider in order to use their API. When working with APIs, I always take this approach:
 1. Pull **something** via the API (usually very simple request)
@@ -86,17 +86,17 @@ By slowly narrowing the scope, you are able to tell identify if an error is due 
 
 Relating back to our project, some APIs are done without using the "requests" package. Other programmers have created Python packages to specifically handle a certain API, and we can use these to reduce our workload. Try to pull any sort of data using one of the following APIs (these were included Satellite Imagery 101).
 
-Google Earth Engine API - https://developers.google.com/earth-engine/guides/python_install
-<br>USGS API - https://mapbox.github.io/usgs/reference/api.html
+Google Earth Engine API - https://developers.google.com/earth-engine/guides/python_install  
+<br>USGS API - https://mapbox.github.io/usgs/reference/api.html  
 <br>(NOTE: this requires an additional request for an API key before the service can be used) - https://gis.stackexchange.com/questions/300323/search-images-in-usgs-earth-explorer-using-python-api
 
 ### Section 5 - Images & Code
 #### Section References
-https://datacarpentry.org/image-processing/02-image-basics/ 
-https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/intro-to-the-geotiff-file-format/
-https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/
+https://datacarpentry.org/image-processing/02-image-basics/   
+https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/intro-to-the-geotiff-file-format/  
+https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/  
 
 At this point we should shift our focus towards downloading the satellite imagery from one of our sources, so I'm going to pause the project here for now. However, sometimes it's helpful to understand what exactly you are trying to extract. To provide some reference, I'm going to share some links that explain images from a programming mindset as well as the types of files that you'll likely encounter along the way.
 
 For those curious, here's a sneak peak of actually playing with the images in Python using OpenCV
-https://pythonprogramming.net/loading-images-python-opencv-tutorial/
+https://pythonprogramming.net/loading-images-python-opencv-tutorial/  
