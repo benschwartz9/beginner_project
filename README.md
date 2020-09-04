@@ -87,7 +87,7 @@ By slowly narrowing the scope, you are able to tell identify if an error is due 
 Relating back to our project, some APIs are done without using the "requests" package. Other programmers have created Python packages to specifically handle a certain API, and we can use these to reduce our workload. Try to pull any sort of data using one of the following APIs (these were included Satellite Imagery 101).
 
 Google Earth Engine API - https://developers.google.com/earth-engine/guides/python_install
-<br>USGS API (NOTE: this requires an additional request for an API key before the service can be used) - https://mapbox.github.io/usgs/reference/api.html
-https://gis.stackexchange.com/questions/300323/search-images-in-usgs-earth-explorer-using-python-api
+<br>USGS API - https://mapbox.github.io/usgs/reference/api.html
+<br>(NOTE: this requires an additional request for an API key before the service can be used) - https://gis.stackexchange.com/questions/300323/search-images-in-usgs-earth-explorer-using-python-api
 
 
