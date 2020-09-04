@@ -72,3 +72,22 @@ There are so many resources to learn the basics of Python that I would highly re
 
 (Project ideas from https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 
+### Section 4 - API
+#### Section References
+https://www.dataquest.io/blog/python-api-tutorial/
+https://www.pythonforbeginners.com/scraping/scraping-wunderground
+
+APIs are most commonly used to send data between services. Because each API is set up differently, you'll have to rely heavily on documentation from the provider in order to use their API. When working with APIs, I always take this approach:
+1. Pull **something** via the API (usually very simple request)
+2. Pull something more specific towards the info you are trying to gather
+3. Pull the data you need
+
+By slowly narrowing the scope, you are able to tell identify if an error is due to your usage of the API or lack of information in the space requested.
+
+Relating back to our project, some APIs are done without using the "requests" package. Other programmers have created Python packages to specifically handle a certain API, and we can use these to reduce our workload. Try to pull any sort of data using one of the following APIs (these were included Satellite Imagery 101).
+
+Google Earth Engine API - https://developers.google.com/earth-engine/guides/python_install
+USGS API (NOTE: this requires an additional request for an API key before the service can be used) - https://mapbox.github.io/usgs/reference/api.html
+https://gis.stackexchange.com/questions/300323/search-images-in-usgs-earth-explorer-using-python-api
+
+
