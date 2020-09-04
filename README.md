@@ -25,7 +25,7 @@ In order to make our code do something, we need a Python interpreter. You can do
 
 Once you download an IDE and Python, it is time to run your first script. Try to run helloworld.py, which is shown in this repository. If you are unfamiliar with Github and aren't sure how to copy the file to your machine, you can simply create a new file on your machine called "helloworld.py" and copy the contents of the helloworld.py on Github into your script.
 
-The output should be "Hello World!"
+The output should be > "Hello World!"
 
 ### Section 2 - Installing Python Packages
 #### Section References
