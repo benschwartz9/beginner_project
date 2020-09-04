@@ -25,7 +25,8 @@ In order to make our code do something, we need a Python interpreter. You can do
 
 Once you download an IDE and Python, it is time to run your first script. Try to run helloworld.py, which is shown in this repository. If you are unfamiliar with Github and aren't sure how to copy the file to your machine, you can simply create a new file on your machine called "helloworld.py" and copy the contents of the helloworld.py on Github into your script.
 
-The output should be > "Hello World!"
+The output should be 
+> Hello World!
 
 ### Section 2 - Installing Python Packages
 #### Section References
@@ -35,6 +36,6 @@ https://pypi.org/project/requests/
 Rather than writing it all yourself, you can use code other programmers wrote wrapped up in packages. "pip" is a package manager, which allows you to easily download other people's packages and incorporate it in your code. To test your ability to use pip, install the "requests" package using the instructions from the website pypi (https://pypi.org/project/requests/)
 
 Now, you can test that requests is successfully install by running "runrequests.py". If it's working, you should get the response 
-> "Response returned: 200, OK"
+> Response returned: 200, OK
 
 
