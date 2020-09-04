@@ -90,4 +90,13 @@ Google Earth Engine API - https://developers.google.com/earth-engine/guides/pyth
 <br>USGS API - https://mapbox.github.io/usgs/reference/api.html
 <br>(NOTE: this requires an additional request for an API key before the service can be used) - https://gis.stackexchange.com/questions/300323/search-images-in-usgs-earth-explorer-using-python-api
 
+### Section 5 - Images & Code
+#### Section References
+https://datacarpentry.org/image-processing/02-image-basics/ 
+https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/intro-to-the-geotiff-file-format/
+https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/
 
+At this point we should shift our focus towards downloading the satellite imagery from one of our sources, so I'm going to pause the project here for now. However, sometimes it's helpful to understand what exactly you are trying to extract. To provide some reference, I'm going to share some links that explain images from a programming mindset as well as the types of files that you'll likely encounter along the way.
+
+For those curious, here's a sneak peak of actually playing with the images in Python using OpenCV
+https://pythonprogramming.net/loading-images-python-opencv-tutorial/
