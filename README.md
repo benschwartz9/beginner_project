@@ -84,7 +84,7 @@ APIs are most commonly used to send data between services. Because each API is s
 
 By slowly narrowing the scope, you are able to tell identify if an error is due to your usage of the API or lack of information in the space requested.
 
-Relating back to our project, some APIs are done without using the "requests" package. Other programmers have created Python packages to specifically handle a certain API, and we can use these to reduce our workload. Try to pull any sort of data using one of the following APIs (these were included Satellite Imagery 101).
+Relating back to our project, some APIs are done without using the "requests" package. Other programmers have created Python packages to specifically handle a certain API, and we can use these to reduce our workload. Try to pull any sort of data using one of the following APIs (these were included in Satellite Imagery 101).
 
 Google Earth Engine API - https://developers.google.com/earth-engine/guides/python_install  
 USGS API - https://mapbox.github.io/usgs/reference/api.html  
