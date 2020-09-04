@@ -38,4 +38,26 @@ Rather than writing it all yourself, you can use code other programmers wrote wr
 Now, you can test that requests is successfully install by running "runrequests.py". If it's working, you should get the response 
 > Response returned: 200, OK
 
+Now, you should be able to install any package you might find useful. Some that I think will be useful are
+https://pypi.org/project/numpy/
+https://pypi.org/project/matplotlib/
+https://pypi.org/project/pandas/
+https://pypi.org/project/Pillow/
+https://pypi.org/project/opencv-python/
 
+To finish this section, download at least one of the following packages and use it in your own Python program
+
+
+### Section 3 - Basic Python
+#### Section References
+https://www.tutorialspoint.com/python/index.htm
+https://www.w3schools.com/python/
+
+There are so many resources to learn the basics of Python that I would highly recommend looking on your own to see what works best for you. I put some links to the resources that I used when learning Python. After you read through and learn the basics, I would recommend completing a simple project to put your skills to the test. Keep in mind, the point here is to learn Python.
+
+> 1. Dice Rolling Simulator
+> The Goal: Like the title suggests, this project involves writing a program that simulates rolling dice. When the program runs, 
+> it will randomly choose a number between 1 and 6. (Or whatever other integer you prefer — the number of sides on the die is up 
+> to you.) The program will print what that number is. It should then ask you if you’d like to roll again. For this project, 
+> you’ll need to set the min and max number that your dice can produce. For the average die, that means a minimum of 1 and a 
+> maximum of 6. You’ll also want a function that randomly grabs a number within that range and prints it.
