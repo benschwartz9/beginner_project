@@ -53,7 +53,7 @@ To finish this section, download at least one of the following packages and use 
 https://www.tutorialspoint.com/python/index.htm  
 https://www.w3schools.com/python/  
 
-There are so many resources to learn the basics of Python that I would highly recommend looking on your own to see what works best for you. I put some links to the resources that I used when learning Python. After you read through and learn the basics, I would recommend completing a simple project to put your skills to the test. Keep in mind, the point here is to learn Python.
+There are so many resources to learn the basics of Python that I would highly recommend looking on your own to see what works best for you. I put some links to the resources that I used when learning Python. After you read through and learn the basics, I would recommend completing a simple project to put your skills to the test. The point here is to learn Python, so don't feel limited to these two projects.
 
 **1. Dice Rolling Simulator**
 > Like the title suggests, this project involves writing a program that simulates rolling dice. When the program runs, 
