@@ -80,7 +80,7 @@ https://www.pythonforbeginners.com/scraping/scraping-wunderground
 APIs are most commonly used to send data between services. Because each API is set up differently, you'll have to rely heavily on documentation from the provider in order to use their API. When working with APIs, I always take this approach:
 1. Pull **something** via the API (usually very simple request)
 2. Pull something more specific towards the info you are trying to gather
-3. Pull the data you need
+3. Pull the data you really need
 
 By slowly narrowing the scope, you are able to tell identify if an error is due to your usage of the API or lack of information in the space requested.
 
