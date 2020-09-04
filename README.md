@@ -34,6 +34,7 @@ https://pypi.org/project/requests/
 
 Rather than writing it all yourself, you can use code other programmers wrote wrapped up in packages. "pip" is a package manager, which allows you to easily download other people's packages and incorporate it in your code. To test your ability to use pip, install the "requests" package using the instructions from the website pypi (https://pypi.org/project/requests/)
 
-Now, you can test that requests is successfully install by running "runrequests.py". If it's working, you should get the response "Response returned: 200, OK"
+Now, you can test that requests is successfully install by running "runrequests.py". If it's working, you should get the response 
+> "Response returned: 200, OK"
 
 
