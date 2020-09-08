@@ -91,11 +91,13 @@ USGS API - https://mapbox.github.io/usgs/reference/api.html
 (NOTE: this requires an additional request for an API key before the service can be used) - https://gis.stackexchange.com/questions/300323/search-images-in-usgs-earth-explorer-using-python-api
 
 **--Update--**  
-Most APIs can be reached using the *requests* packages. Sometimes, other programmers will create an API wrapper, a Python package that does most of the heavy lifting when it comes to retrieving data through the API. Here is an example for USGS of a raw API being exposed (which would be accessed through *requests*) and a wrapper which simplifies the process for you.
+Most APIs can be reached using the *requests* packages. Sometimes, other programmers will create an API wrapper, which is a Python package that does most of the heavy lifting when it comes to retrieving data through the API. Here is an example for USGS of a raw API being exposed (which would be accessed through *requests*) and a wrapper which simplifies the process for you.
 Raw API - https://streamstats.usgs.gov/docs/streamstatsservices/#/ 
 API Wrapper - https://mapbox.github.io/usgs/index.html#
 
-To show another example of using requests to access data, I have uploaded the tool that my team built last year to access data from the NOAA API. The script does a bit more than just pull data from the API, but you can just ignore the other sections for this example.
+If you choose to use Google Earth Engine, it is highly recommended that you use their wrapper instead of trying to make the requests package work.
+
+To show another example of using requests to access data, I have uploaded the tool that my team built last year to access data from the NOAA API (NOAA_API_Example.py). The script does a bit more than just pull data from the API, but you can just ignore the other sections for this example.
 
 ### Section 5 - Images & Code
 #### Section References
