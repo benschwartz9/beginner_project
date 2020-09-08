@@ -90,7 +90,7 @@ Google Earth Engine API - https://developers.google.com/earth-engine/guides/pyth
 USGS API - https://mapbox.github.io/usgs/reference/api.html  
 (NOTE: this requires an additional request for an API key before the service can be used) - https://gis.stackexchange.com/questions/300323/search-images-in-usgs-earth-explorer-using-python-api
 
-**Update**
+**--Update--**  
 Most APIs can be reached using the *requests* packages. Sometimes, other programmers will create an API wrapper, a Python package that does most of the heavy lifting when it comes to retrieving data through the API. Here is an example for USGS of a raw API being exposed (which would be accessed through *requests*) and a wrapper which simplifies the process for you.
 Raw API - https://streamstats.usgs.gov/docs/streamstatsservices/#/ 
 API Wrapper - https://mapbox.github.io/usgs/index.html#
