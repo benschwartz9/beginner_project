@@ -9,7 +9,7 @@ First we are going to learn [how an image is stored on a computer](https://www.k
 
 This hopefully gives some good conceptual knowledge of the task at hand. But how do we access and modify these pixels? Like many things in Python, we can use a package to accomplish this. Much of Python programming is figuring out which packages to use and how to use them. For this project, we are going to simplify the process by recommending that you use OpenCV. However, we are not going to give the the exact webpages for how to use each method. This will be part of what you have to accomplish. As a hint, I often use [this] (https://opencv-python-tutroals.readthedocs.io/en/latest/#) website to learn more about how to use OpenCV. You are free to use google or anya other resources, however.
 
-**Task1** 
+**Task1**  
 Using OpenCV, open up the file Purdue_Logo.jpg (in the images folder). Then, print out the value of the size of the image and the value of the pixel at [10, 10]. Next, make a 20x20 red square in the bottom right corner of the image. Save the changed image as Purdue_Logo_Result.jpg
 
 
