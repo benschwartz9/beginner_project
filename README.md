@@ -1,4 +1,21 @@
-# John Deere Golf Course Boundary - Beginner Project
+# Intermediate Project (11/1)
+
+### Overview
+Reminder: This is completely optional!
+Most people are split up into specific subteams. Everyone should complete Basics as it contains information that is required by anyone who wants to work with images. In contrast to the beginner project, I've elected to add "homework" problems called Tasks to demonstrate your understanding. Make sure to read the articles before you begin so you understand the task at hand.
+
+### Basics
+First we are going to learn [how an image is stored on a computer](https://www.kdnuggets.com/2018/07/basic-image-data-analysis-numpy-opencv-p1.html)
+
+This hopefully gives some good conceptual knowledge of the task at hand. But how do we access and modify these pixels? Like many things in Python, we can use a package to accomplish this. Much of Python programming is figuring out which packages to use and how to use them. For this project, we are going to simplify the process by recommending that you use OpenCV. However, we are not going to give the the exact webpages for how to use each method. This will be part of what you have to accomplish. As a hint, I often use [this] (https://opencv-python-tutroals.readthedocs.io/en/latest/#) website to learn more about how to use OpenCV. You are free to use google or anya other resources, however.
+
+**Task1** 
+Using OpenCV, open up the file Purdue_Logo.jpg (in the images folder). Then, print out the value of the size of the image and the value of the pixel at [10, 10]. Next, make a 20x20 red square in the bottom right corner of the image. Save the changed image as Purdue_Logo_Result.jpg
+
+
+# Original Beginner Project
+
+## John Deere Golf Course Boundary - Beginner Project
 This project is divided up into several sections. Each section is independent of each other.
 In addition, this is not a tutorial. The project contains several problems so that you can practice your skills before working on the main project. I've listed some helpful links below, but you are encourged to explore other resources. 
 
