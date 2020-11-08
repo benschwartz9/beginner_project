@@ -5,11 +5,11 @@
 
 ### Overview
 
-Reminder: This is completely optional!
+(11/8 Update): The "Basics" section is done. More sections are to come
 
-Most people are split up into specific subteams. Everyone should complete Basics as it contains information that is required by anyone who wants to work with images. In contrast to the beginner project, I've elected to add "homework" problems called Tasks to demonstrate your understanding. Make sure to read the articles before you begin so you understand the task at hand. The results folder contains the output to what your code should be. If it doesn't look the same, then chances are you made a mistake somewhere in your code.
+Most people are split up into specific subteams. Everyone should complete Basics as it contains information that is required by anyone who wants to work with images. In contrast to the beginner project, I've elected to add "homework" problems called tasks to demonstrate your understanding. Make sure to read the articles before you begin so you understand the task at hand. The results folder contains the output to what your code should do.
 
-If you choose to complete this project as part of your participation for the class, then you will need to reach out to me to check your answer. You should already know if your solution is correct by comparing it to the images in the Results folder, but I won't count you as complete until we get a chance to talk and I make sure you understand what you are doing. Remember, the goal is to learn! 
+If you choose to complete this project as part of your participation for the class, then you will need to reach out to me to check your answer. You should already know if your solution is correct by comparing it to the images in the Results folder, but I won't count you as complete until we get a chance to talk. That way, I can clear up and questions and make sure you understand what you are doing. Remember, the goal is to learn! 
 
 Feel free to reach out if you are stuck!
 
@@ -18,11 +18,11 @@ Feel free to reach out if you are stuck!
 ### Basics
 First we are going to learn [how an image is stored on a computer](https://www.kdnuggets.com/2018/07/basic-image-data-analysis-numpy-opencv-p1.html)
 
-This hopefully gives some good conceptual knowledge of the task at hand. But how do we access and modify these pixels? Like many things in Python, we can use a package to accomplish this. Much of Python programming is figuring out which packages to use and how to use them. For this project, we are going to simplify the process by recommending that you use OpenCV. However, we are not going to give the the exact webpages for how to use each method. This will be part of what you have to figure out. As a hint, I often use [this] (https://opencv-python-tutroals.readthedocs.io/en/latest/#) website to learn more about how to use OpenCV. You are free to use google or any other resources, however.
+This hopefully gives some good conceptual knowledge of the task at hand. But how do we access and modify these pixels? Like many things in Python, we can use a package to accomplish this. Much of Python programming is figuring out which packages to use and how to use them. For this project, we are going to simplify the process by recommending that you use OpenCV. However, we are not going to give the the exact webpages for how to use each method. This will be part of what you have to figure out. As a hint, I often use [this](https://opencv-python-tutroals.readthedocs.io/en/latest/#) website to learn more about how to use OpenCV. You are free to use google or any other resources, however.
 
 One very helpful thing to know is that Numpy and OpenCV work very closely together. When you read in an image using `cv2.imread("filename")`, you the result is stored as a Numpy array. You should prove this to yourself by running the Python function`type(variable)` to see that the value returned from `imread` is a `<class 'numpy.ndarray'>`.
 
-**Task 1**
+**Task 1**  
 Using OpenCV, open up the file Purdue_Logo.jpg (in the images folder). First, we are going to get some information out of the picture. Print the following: 
 - Dimensions/shape of the image
 - Value of the pixel at (400, 400)
@@ -35,7 +35,7 @@ The datatype of an image is especially important as it can be the source of many
 
 Now, we are going to do the most basic type of image transformation. Make a 20x20 red square in the bottom right corner of the image by directly changing the values of each pixel. (Hint: You shouldn't have to directly reference each pixel by hand). Save the changed image as Purdue_Logo_Result.jpg
 
-**Task 2**
+**Task 2**  
 While changing the value of each pixel allows us to modify images freely, it is a tedious process for applying filters to an image. Thankfully, OpenCV helps us out by simplifying these filters into a single method. I am going to increase the difficulty for this task by providing less resources, as I will continue to into the future. Still, it will be up to you to find the correct methods to complete this task. However, I will get you started on the right track. To complete this task, find a way to convert an image to grayscale. Then, use a threshold to keep the part of the image that you want.
 [Here](https://en.wikipedia.org/wiki/Thresholding_(image_processing)) is a good place to get started on understanding what thresholding is. You will most like have to do further research to get a better understanding of what it does.
 
@@ -47,7 +47,7 @@ For Task 2, write a Python script which takes Purdue_Logo.jpg and outputs it as 
 - Pixel value of the binary image at (400, 400)
 
 
-**Task 3**
+**Task 3**  
 For the last task of the "basic" session, we are going to learn how to user OpenCV in order to blur and find the edges of an image. There are multiple ways to do this, and there is no perfect answer to this step. However, a general recommendation is to blur the image before trying to find its edges. Using Jet.jpg, you are going to output two images:
 - Jet_Edges.jpg -> Shows the edges of the jet in white
 - Jet_Blur.jpg -> A blurred image of the jet, used to achieve the image above. 
@@ -56,8 +56,6 @@ Compare your images to Jet_Blur.jpg and Jet_Edges.jpg in the Results folder to m
   
 
 # Original Beginner Project
-
-  
 
 ## John Deere Golf Course Boundary - Beginner Project
 
